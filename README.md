@@ -26,7 +26,7 @@ An AI-powered personal finance app that processes UPI transaction statements (Pa
 
 ---
 
-##📌 Use Cases
+## 📌 Use Cases
 -✅ Unify and analyze UPI transactions from Paytm, PhonePe, GPay
 
 -🔎 Identify spending patterns, top merchants, and unnecessary expenses
@@ -37,7 +37,7 @@ An AI-powered personal finance app that processes UPI transaction statements (Pa
 
 ---
 
-##🧾 Output Examples
+## 🧾 Output Examples
 -📁 CSV/JSON with structured transaction data
 
 -📉 Graphs: Category-wise & time-based spend breakdowns
@@ -57,7 +57,7 @@ An AI-powered personal finance app that processes UPI transaction statements (Pa
 
 ---
 
-##📈 Evaluation Metrics
+## 📈 Evaluation Metrics
 -📊 PDF Parsing Accuracy – correctness of field extraction
 
 -💬 LLM Insight Quality – relevance and helpfulness of advice
@@ -70,7 +70,7 @@ An AI-powered personal finance app that processes UPI transaction statements (Pa
 
 ---
 
-##🎯 Deliverables
+## 🎯 Deliverables
 -✅ Python codebase
 
 -✅ Streamlit / Gradio-based UI
