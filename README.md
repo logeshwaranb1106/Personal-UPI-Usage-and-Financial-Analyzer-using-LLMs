@@ -40,7 +40,7 @@ pip install -r requirements.txt
 streamlit run app.py
 
 # OR run Gradio app
-python gradio_app.py
+python gradio_app.py```
 
 ##📌 Use Cases
 -✅ Unify and analyze UPI transactions from Paytm, PhonePe, GPay
