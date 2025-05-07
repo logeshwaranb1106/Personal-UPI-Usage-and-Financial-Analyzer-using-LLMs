@@ -26,22 +26,6 @@ An AI-powered personal finance app that processes UPI transaction statements (Pa
 
 ---
 
-## 📦 Installation & Running
-
-```bash
-# Clone the repo
-git clone https://github.com/your-username/personal-upi-analyzer.git
-cd personal-upi-analyzer
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Run Streamlit app
-streamlit run app.py
-
-# OR run Gradio app
-python gradio_app.py```
-
 ##📌 Use Cases
 -✅ Unify and analyze UPI transactions from Paytm, PhonePe, GPay
 
@@ -50,6 +34,8 @@ python gradio_app.py```
 -💡 Get personalized monthly budget and saving tips
 
 -📈 Monitor financial behavior across all apps in one dashboard
+
+---
 
 ##🧾 Output Examples
 -📁 CSV/JSON with structured transaction data
@@ -69,6 +55,8 @@ python gradio_app.py```
 
 --Smart saving strategies
 
+---
+
 ##📈 Evaluation Metrics
 -📊 PDF Parsing Accuracy – correctness of field extraction
 
@@ -79,6 +67,8 @@ python gradio_app.py```
 -⚡ Response Speed – time taken for analysis and output
 
 -👍 User Satisfaction – qualitative feedback from users
+
+---
 
 ##🎯 Deliverables
 -✅ Python codebase
