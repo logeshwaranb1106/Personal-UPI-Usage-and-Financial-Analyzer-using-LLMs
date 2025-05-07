@@ -18,8 +18,8 @@ An AI-powered personal finance app that processes UPI transaction statements (Pa
 ## 🛠️ Tech Stack
 
 - **Python**, **Pandas**
-- **pdfplumber** / **PyMuPDF** for PDF parsing
-- **OpenAI API** / **Hugging Face Transformers**
+- **pdfplumber** / **PyPDF** for PDF parsing
+- **Gemini API** / **Hugging Face Transformers**
 - **Langflow** for LLM workflow chaining
 - **Streamlit** / **Gradio**
 - **Hugging Face Spaces** (Deployment)
