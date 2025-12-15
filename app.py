@@ -1,9 +1,12 @@
 import streamlit as st
 import PyPDF2
+import os
 import google.generativeai as genai
 
+os.load_dotenv()
+
 # --- Set your Google Gemini API key ---
-GEMINI_API_KEY = "AIzaSyBrtKI8noISjUW3uINkGEHNO2lC5P7Rr0Y"  
+GEMINI_API_KEY = os.environ['GEMINI_API_KEY']
 genai.configure(api_key=GEMINI_API_KEY)
 
 # --- Streamlit page setup ---
@@ -136,7 +139,7 @@ Here is the user's raw transaction data:
     """
 
     try:
-        model = genai.GenerativeModel("gemini-2.0-flash")
+        model = genai.GenerativeModel("gemini-2.5-flash")
         response = model.generate_content(prompt)
         if response:
             return response.text.strip()
@@ -163,4 +166,5 @@ if uploaded_file is not None:
 
         st.success("🎉 Analysis complete! Use these insights to improve your finances.")
         st.balloons()
+
 
