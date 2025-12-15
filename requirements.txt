@@ -1,4 +1,6 @@
 pandas
+os
+dotenv
 streamlit
 pypdf2
 google-generativeai
