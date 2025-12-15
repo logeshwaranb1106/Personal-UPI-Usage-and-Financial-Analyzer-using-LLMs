@@ -1,13 +1,13 @@
 import streamlit as st
 import PyPDF2
-import os
-from dotenv import load_dotenv
+# import os
+# from dotenv import load_dotenv
 import google.generativeai as genai
 
-load_dotenv()
+# load_dotenv()
 
 # --- Set your Google Gemini API key ---
-GEMINI_API_KEY = os.environ['GEMINI_API_KEY']
+GEMINI_API_KEY = 'AIzaSyC1nVEKKKsmFr4r6CipUTEkXZXryKhgGoM'
 genai.configure(api_key=GEMINI_API_KEY)
 
 # --- Streamlit page setup ---
@@ -167,6 +167,7 @@ if uploaded_file is not None:
 
         st.success("🎉 Analysis complete! Use these insights to improve your finances.")
         st.balloons()
+
 
 
 
